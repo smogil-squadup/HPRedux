@@ -435,7 +435,14 @@ body {
 	body { font-size: 80%; }
 	.side {opacity: 1 !important;}
 	.profile img {opacity: 1 !important}
-
+	p {font-size: 0;}
+	h1 {font-size: .7em;}
+	.button--size-s {font-size: 10px !important;}
+	.button {min-width: 150px !important;}
+	.intro-content {top: 37% !important;}
+	.intro-content h1 > span:first-child {
+		font-weight: 600;
+	}
 	/*.intro-content { font-size: 50%; }*/
 }
 
@@ -618,10 +625,10 @@ body {
 }
 
 
-
 .side:hover > .intro-content h1 > span:first-child {
 	font-weight: 600;
 	font-size: 2em;
+
 }
 
 .side:hover > .intro-content .profile img {
